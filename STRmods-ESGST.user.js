@@ -6,8 +6,8 @@
 // @version 69 action Beta v69.69.3
 // @author STRmods and ma boi revilheart
 // @contributor kek
-// @downloadURL https://www.dropbox.com/s/fvn2fkes97thlr3/STRmods-ESGST.user.js?dl=1
-// @updateURL https://www.dropbox.com/s/1oefnfdk0jycpmw/STRmods-ESGST.meta.js?dl=1
+// @downloadURL https://github.com/gimmedemmaps/keks/raw/master/STRmods-ESGST.user.js
+// @updateURL https://raw.githubusercontent.com/gimmedemmaps/keks/master/STRmods-ESGST.meta.js
 // @match https://www.steamgifts.com/*
 // @match https://www.steamtrades.com/*
 // @connect raw.githubusercontent.com
@@ -17843,11 +17843,11 @@ ${esgst.sg ? `
             });
         });
         SMCheckUpdate.addEventListener(`click`, function () {
-            makeRequest(null, `https://www.dropbox.com/s/1oefnfdk0jycpmw/STRmods-ESGST.meta.js`, null, function (response) {
+            makeRequest(null, `https://raw.githubusercontent.com/gimmedemmaps/keks/master/STRmods-ESGST.meta.js`, null, function (response) {
                 var version = response.responseText.match(/@version (.+)/);
                 if (version) {
                     if (version[1] != GM_info.script.version) {
-                        window.location.href = `https://www.dropbox.com/s/fvn2fkes97thlr3/STRmods-ESGST.user.js?dl=1`;
+                        window.location.href = `https://github.com/gimmedemmaps/keks/raw/master/STRmods-ESGST.user.js`;
                     } else {
                         window.alert(`No STRmods' ESGST updates found!`);
                     }
@@ -18060,13 +18060,10 @@ ${avatar.outerHTML}
             URL: "#ESGST"
         }, {
             Title: "Update",
-            URL: "https://github.com/revilheart/ESGST/raw/master/ESGST.user.js"
+            URL: "https://github.com/gimmedemmaps/keks/raw/master/STRmods-ESGST.user.js"
         }, {
-            Title: "GitHub",
-            URL: "https://github.com/revilheart/ESGST"
-        }, {
-            Title: "Discussion",
-            URL: "/discussion/TDyzv/"
+            Title: "rip",
+            URL: "https://www.youtube.com/strmods"
         }]));
         SMButton = Sidebar.getElementsByClassName("SMButton")[0];
         SMButton.addEventListener("click", function () {
