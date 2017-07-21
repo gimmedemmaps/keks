@@ -5,10 +5,10 @@
 * Fixes to work with the latest steamgift changes
 * Fixed many old bugs.
 * Decrypted giveaways now available (star icon at the top) (decrypted giveaways are from users of the original script who make secret giveaways normal users can't see)
-* More memes  ( ͡° ͜ʖ ͡°)
+* More memes ( ͡° ͜ʖ ͡°)
 
 * Here's my setup which I recommend you copy. 
-https://www.dropbox.com/s/7fewc84bbuzdbhf/settings.png?dl=0
+http://i.imgur.com/HvCvS1f.png
 
 
 /*
