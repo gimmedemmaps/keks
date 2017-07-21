@@ -1,8 +1,14 @@
 /*
- * July 21, 2017 - v69.694
+ * July 21, 2017 - v69.911
  */
 
 * Fixes to work with the latest steamgift changes
+* Fixed many old bugs.
+* Decrypted giveaways now available (star icon at the top) (decrypted giveaways are from users of the original script who make secret giveaways normal users can't see)
+* More memes
+
+* Here's my setup which I recommend you copy 
+https://raw.githubusercontent.com/gimmedemmaps/keks/master/settings.png
 
 /*
  * June 16, 2017 - v69.69.3
