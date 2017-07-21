@@ -75,7 +75,7 @@
                     updateCommentStorageToV6();
                     if (window.location.pathname.match(/^\/discussion\/TDyzv\//)) {
                         if (document.querySelector(`[href*="ESGST-currentVersion"]`).getAttribute(`href`).match(/currentVersion-(.+)/)[1] !== GM_info.script.version) {
-                            createAlert(`You are not using the latest ESGST version. Please update before reporting any bugs and make sure the bugs still exist in the latest version.`);
+                            createAlert(`You are not using the latest hax version. Please update.`);
                         }
                     }
                     style = `
@@ -3180,16 +3180,16 @@
     }
 
     function checkUpdate() {
-        makeRequest(null, `https://raw.githubusercontent.com/revilheart/ESGST/master/ESGST.meta.js`, null, function (response) {
+        makeRequest(null, `https://raw.githubusercontent.com/gimmedemmaps/keks/master/STRmods-ESGST.meta.js`, null, function (response) {
             var version = response.responseText.match(/@version (.+)/);
             if (version) {
                 if (version[1] != GM_info.script.version) {
-                    window.location.href = `https://raw.githubusercontent.com/revilheart/ESGST/master/ESGST.user.js`;
+                    window.location.href = `https://raw.githubusercontent.com/gimmedemmaps/keks/master/STRmods-ESGST.user.js`;
                 } else {
-                    window.alert(`No ESGST updates found!`);
+                    window.alert(`No Hax updates found!`);
                 }
             } else {
-                window.alert(`No ESGST updates found!`);
+                window.alert(`No Hax updates found!`);
             }
         });
     }
