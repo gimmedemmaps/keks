@@ -3070,19 +3070,9 @@
                                 <p class="esgst-header-menu-description">See if there's a fucking update.</p>
                             </div>
                         </div>
-                        <a class="esgst-header-menu-row" href="https://github.com/revilheart/ESGST">
-                            <i class="fa fa-fw fa-github grey"></i>
-                            <div>
-                                <p class="esgst-header-menu-name">GitHub</p>
-                                <p class="esgst-header-menu-description">Visit the GitHub page.</p>
-                            </div>
+                        <a class="" href="https://www.youtube.com/strmods">
                         </a>
-                        <a class="esgst-header-menu-row" href="https://www.steamgifts.com/discussion/TDyzv/">
-                            <i class="fa fa-fw fa-commenting green"></i>
-                            <div>
-                                <p class="esgst-header-menu-name">Discussion</p>
-                                <p class="esgst-header-menu-description">Visit the discussion page.</p>
-                            </div>
+                        <a class="" href="https://www.steamgifts.com/discussion/TDyzv/">
                         </a>
                         <div class="esgst-header-menu-row">
                             <i class="fa fa-fw fa-user red"></i>
