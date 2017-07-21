@@ -1,9 +1,9 @@
 ﻿// ==UserScript==
 // @name STRmods ESGST
 // @namespace STRmods ESGST
-// @description Enhances SteamGifts and SteamTrades by adding some cool features to them.
-// @icon https://www.dropbox.com/s/914ol7idiattpf1/strmods.ico?dl=1
-// @version 69 action Beta v69.711
+// @description EZPZ MODE WITH ENTER BUTTON AS IT SHOULD BE, FUKING REKT M9
+// @icon https://raw.githubusercontent.com/gimmedemmaps/keks/master/strmods.ico
+// @version 69 action Beta v69.712
 // @author STRmods and ma boi revilheart
 // @downloadURL https://raw.githubusercontent.com/gimmedemmaps/keks/master/STRmods-ESGST.user.js
 // @updateURL https://raw.githubusercontent.com/gimmedemmaps/keks/master/STRmods-ESGST.meta.js
@@ -34,9 +34,9 @@
 // @require https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js
 // @require https://cdn.steamgifts.com/js/highcharts.js
 // @require https://github.com/dinbror/bpopup/raw/master/jquery.bpopup.min.js
-// @resource esgstIcon https://github.com/revilheart/ESGST/raw/master/Resources/esgstIcon.ico
-// @resource sgIcon https://cdn.steamgifts.com/img/favicon.ico
-// @resource stIcon https://cdn.steamtrades.com/img/favicon.ico
+// @resource esgstIcon https://raw.githubusercontent.com/gimmedemmaps/keks/master/strmods.ico
+// @resource sgIcon https://raw.githubusercontent.com/gimmedemmaps/keks/master/strmods.ico
+// @resource stIcon https://raw.githubusercontent.com/gimmedemmaps/keks/master/strmods.ico
 // @noframes
 // ==/UserScript==
 
