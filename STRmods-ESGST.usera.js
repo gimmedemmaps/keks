@@ -1,9 +1,9 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name STRmods ESGST
 // @namespace STRmods ESGST
-// @description Enhances SteamGifts and SteamTrades by adding some cool features to them.
+// @description EZPZ MODE WITH ENTER BUTTON AS IT SHOULD BE, FUKING REKT M9
 // @icon https://www.dropbox.com/s/914ol7idiattpf1/strmods.ico?dl=1
-// @version 69 action Beta v69.694
+// @version 69 action Beta v69.693
 // @author STRmods and ma boi revilheart
 // @downloadURL https://www.dropbox.com/s/fvn2fkes97thlr3/STRmods-ESGST.user.js?dl=1
 // @updateURL https://www.dropbox.com/s/1oefnfdk0jycpmw/STRmods-ESGST.meta.js?dl=1
@@ -34,9 +34,9 @@
 // @require https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js
 // @require https://cdn.steamgifts.com/js/highcharts.js
 // @require https://github.com/dinbror/bpopup/raw/master/jquery.bpopup.min.js
-// @resource esgstIcon https://github.com/revilheart/ESGST/raw/master/Resources/esgstIcon.ico
-// @resource sgIcon https://cdn.steamgifts.com/img/favicon.ico
-// @resource stIcon https://cdn.steamtrades.com/img/favicon.ico
+// @resource esgstIcon https://www.dropbox.com/s/914ol7idiattpf1/strmods.ico?dl=1
+// @resource sgIcon https://www.dropbox.com/s/914ol7idiattpf1/strmods.ico?dl=1
+// @resource stIcon https://www.dropbox.com/s/914ol7idiattpf1/strmods.ico?dl=1
 // @noframes
 // ==/UserScript==
 
@@ -3066,24 +3066,10 @@
                         <div class="esgst-header-menu-row">
                             <i class="fa fa-fw fa-refresh blue"></i>
                             <div>
-                                <p class="esgst-header-menu-name">Update</p>
-                                <p class="esgst-header-menu-description">Check for updates.</p>
+                                <p class="esgst-header-menu-name">Update Hax</p>
+                                <p class="esgst-header-menu-description">See if there's a fucking update.</p>
                             </div>
                         </div>
-                        <a class="esgst-header-menu-row" href="https://github.com/revilheart/ESGST">
-                            <i class="fa fa-fw fa-github grey"></i>
-                            <div>
-                                <p class="esgst-header-menu-name">GitHub</p>
-                                <p class="esgst-header-menu-description">Visit the GitHub page.</p>
-                            </div>
-                        </a>
-                        <a class="esgst-header-menu-row" href="https://www.steamgifts.com/discussion/TDyzv/">
-                            <i class="fa fa-fw fa-commenting green"></i>
-                            <div>
-                                <p class="esgst-header-menu-name">Discussion</p>
-                                <p class="esgst-header-menu-description">Visit the discussion page.</p>
-                            </div>
-                        </a>
                         <div class="esgst-header-menu-row">
                             <i class="fa fa-fw fa-user red"></i>
                             <div>
@@ -3102,7 +3088,7 @@
                             <i class="fa fa-fw fa-file-text-o grey"></i>
                             <div>
                                 <p class="esgst-header-menu-name">Changelog</p>
-                                <p class="esgst-header-menu-description">Check out the script's changelog.</p>
+                                <p class="esgst-header-menu-description">See what Ste has done this time...</p>
                             </div>
                         </div>
                     </div>
@@ -3111,7 +3097,7 @@
                     <i class="fa">
                         <img src="${GM_getResourceURL(`esgstIcon`)}"/>
                     </i>
-                    <span>ESGST</span>
+                    <span>Hax Script Settings</span>
                 </div>
                 <div class="esgst-header-menu-button arrow">
                     <i class="fa fa-angle-down"></i>
@@ -3172,7 +3158,7 @@
     }
 
     function loadChangelog() {
-        makeRequest(null, `https://raw.githubusercontent.com/revilheart/ESGST/master/changelog.txt`, null, function (response) {
+        makeRequest(null, `https://gist.githubusercontent.com/gimmedemmaps/2baf4d83ca1b1f8374aab07b44ab3790/raw/0c69f21059f4e7d4deb11dfc796399fea2c60918/changelog.txt`, null, function (response) {
             var changelogPopup = createPopup();
             changelogPopup.Icon.classList.add(`fa-file-text-o`);
             changelogPopup.Title.textContent = `Changelog`;
@@ -8526,18 +8512,18 @@ ${avatar.outerHTML}
             giveaway.elgbButton.remove();
         }
         if (giveaway.entered) {
-            giveaway.elgbButton = createButtonSet(`yellow`, `grey`, `fa-minus-circle`, `fa-circle-o-notch fa-spin`, `Leave`, `Leaving...`, leaveElgbGiveaway.bind(null, giveaway, main)).set;
+            giveaway.elgbButton = createButtonSet(`yellow`, `grey`, `fa-minus-circle`, `fa-circle-o-notch fa-spin`, `Nah m8, changed my mind.`, `Leaving shit giveaway.`, leaveElgbGiveaway.bind(null, giveaway, main)).set;
             giveaway.elgbButton.removeAttribute(`title`);
         } else if (giveaway.error) {
-            giveaway.elgbButton = createButtonSet(`red`, `grey`, `fa-plus-circle`, `fa-circle-o-notch fa-spin`, `Enter`, `Entering...`, esgst.elgbCallback.bind(null, giveaway, main)).set;
-            giveaway.elgbButton.setAttribute(`title`, error);
+            giveaway.elgbButton = createButtonSet(`red`, `grey`, `fa-plus-circle`, `fa-circle-o-notch fa-spin`, `RIP`, `KYS plz`, esgst.elgbCallback.bind(null, giveaway, main)).set;
+            giveaway.elgbButton.setAttribute(`title`, `I'm dead, leave me alone.`);
         } else {
             if (giveaway.points <= esgst.headerData.points) {
-                giveaway.elgbButton = createButtonSet(`green`, `grey`, `fa-plus-circle`, `fa-circle-o-notch fa-spin`, `Enter`, `Entering...`, esgst.elgbCallback.bind(null, giveaway, main)).set;
+                giveaway.elgbButton = createButtonSet(`green`, `grey`, `fa-plus-circle`, `fa-circle-o-notch fa-spin`, `I'll 'av a go m8`, `Getting in there`, esgst.elgbCallback.bind(null, giveaway, main)).set;
                 giveaway.elgbButton.removeAttribute(`title`);
             } else {
-                giveaway.elgbButton = createButtonSet(`red`, `grey`, `fa-plus-circle`, `fa-circle-o-notch fa-spin`, `Enter`, `Entering...`, esgst.elgbCallback.bind(null, giveaway, main)).set;
-                giveaway.elgbButton.setAttribute(`title`, `Not Enough Points`);
+                giveaway.elgbButton = createButtonSet(`red`, `grey`, `fa-plus-circle`, `fa-circle-o-notch fa-spin`, `Not Enough Points M9 ( ͡° ͜ʖ ͡°)`, `Are you retarded?`, esgst.elgbCallback.bind(null, giveaway, main)).set;
+                giveaway.elgbButton.removeAttribute(`title`);
             }
         }
         if (main && esgst.gv && esgst.giveawaysPath) {

@@ -1,0 +1,1131 @@
+/*
+ * July 18, 2017 - v6.Beta.19.7
+ */
+
+* Fixed a bug in Giveaway Encrypter/Decrypter.
+
+/*
+ * July 18, 2017 - v6.Beta.19.6
+ */
+
+* Fixed a bug in Giveaway Encrypter/Decrypter.
+
+/*
+ * July 18, 2017 - v6.Beta.19.5
+ */
+
+* Fixed a bug in Giveaway Encrypter/Decrypter that was not showing any giveaways if opening the popup from a user's profile page.
+
+/*
+ * July 18, 2017 - v6.Beta.19.4
+ */
+
+* Fixed a bug in Giveaway Filters.
+
+/*
+ * July 18, 2017 - v6.Beta.19.3
+ */
+
+* Fixed a class conflict with the pinned giveaways button.
+* Fixed a conflict between normal and popup filters in Giveaway Filters (closes #262).
+* Giveaway Encrypter/Decrypter now only loads created/hidden/owned/ignored giveaways if those options are enabled in the filter, instead of loading them first and then filtering. This means that if you change one of those options in the filter, it will only take effect when you refresh the page. Also, giveaways decrypted before this version must be fully loaded (keep clicking "Load more...") if you want them to be filtered correctly.
+* Added bump links to Train Giveaways Extractor (closes #261).
+* Train Giveaways Extractor is now able to extract any amount of trains inside of a train (trainception :P) (closes #263).
+* Added 7.4.4 "Giveaway Info" category to Game Categories (closes #254).
+
+/*
+ * July 18, 2017 - v6.Beta.19.2
+ */
+
+* Fixed a game sync bug.
+* Fixed a bug in Train Giveaways Extractor that was not properly extracting giveaways from trains with previous links.
+* Fixed a bug in Removed Game Redirecter that was redirecting any Steam page.
+
+/*
+ * July 18, 2017 - v6.Beta.19.1
+ */
+
+* Fixed a bug in Giveaway Filters that was not filtering giveaways. 
+
+/*
+ * July 18, 2017 - v6.Beta.19.0
+ */
+
+* Started a process of grouping feature calls together and minimizing interactions with DOM to optimize performance.
+* Fixed a bug that was happening in the automatic sync (closes #260).
+* Fixed a bug in the sync that was not properly syncing games.
+* Added "Hidden", "Owned", "Wishlisted", "Ignored" and "Removed" filters to Giveaway Filters.
+* Extended Giveaway Filters to popups (works with Giveaway Encrypter/Decrypter and Train Giveaways Extractor) (closes #252).
+* Improved Train Giveaways Extractor to work regardless of the name of the "Next" link.
+* Added 7.4.3 "Hidden" filter to Game Categories (must be synced through the settings menu).
+
+Added the following features:
+
+* 2.24 Hidden Games Enter Button Disabler
+
+/*
+ * July 17, 2017 - v6.Beta.18.0
+ */
+
+Added the following features:
+
+* 2.26 Train Giveaways Extractor
+
+/*
+ * July 17, 2017 - v6.Beta.17.11
+ */
+
+* Added created time to Grid View.
+
+/*
+ * July 16, 2017 - v6.Beta.17.10
+ */
+
+* Fixed a bug that was enabling Removed Game Redirecter even if disabled.
+
+/*
+ * July 15, 2017 - v6.Beta.17.9
+ */
+
+* Added an option (5.7.1.2) to only highlight users who failed to pass the check to Not Activated/Multiple Wins Checker.
+
+/*
+ * July 15, 2017 - v6.Beta.17.8
+ */
+
+* Fixed a bug in Entries Remover while syncing owned games (closes #249).
+* Added "Removed" and "Early Access" categories to Game Categories.
+
+/*
+ * July 15, 2017 - v6.Beta.17.7
+ */
+
+* Fixed a bug that was enabling automatic sync even if disabled.
+
+/*
+ * July 15, 2017 - v6.Beta.17.6
+ */
+
+* Fixed a bug that prevented some features from running in giveaways with no descriptions and Next/Previous Train Hotkeys enabled.
+
+/*
+ * July 15, 2017 - v6.Beta.17.5
+ */
+
+* Fixed several bugs.
+* Added back Greasemonkey support to the script (Header Refresher now works well on Greasemonkey as well).
+* Fixed a bug in Whitelist/Blacklist Checker that was showing incorrect results for group/whitelist giveaways.
+
+/*
+ * July 15, 2017 - v6.Beta.17.4
+ */
+
+* You can now sync from ST.
+* You can now sync groups/whitelist/blacklist/games separately.
+* The automatic sync now opens in a new tab.
+* Multiple Giveaways Creator now automatically corrects the starting time of the giveaways if it has already passed and shows error messages in the their titles if the creation process has failed (closes #215).
+
+/*
+ * July 14, 2017 - v6.Beta.17.3
+ */
+
+* Added an option to the new giveaway page in Multiple Giveaways Creator that allows you to choose whether or not to remove the previous/next links in the first/last wagons of the train (closes #240).
+
+/*
+ * July 14, 2017 - v6.Beta.17.2
+ */
+
+* Fixed a style conflict between the script and SG's jQuery UIs.
+
+/*
+ * July 14, 2017 - v6.Beta.17.1
+ */
+
+* Simplified the formatting for descriptions in Multiple Giveaways Creator (make sure you update your templates to the new format, as the old format is no longer supported - pay extra attention because ending tags now have a slash) (closes #237).
+
+/*
+ * July 14, 2017 - v6.Beta.17.0
+ */
+
+* Fixed a formatting error in the second connection style example in Multiple Giveaways Creator.
+
+Added the following features:
+
+* 2.25 Next/Previous Train Hotkeys (closes #195)
+
+/*
+ * July 14, 2017 - v6.Beta.16.9
+ */
+
+* Improved the progress bar in Multiple Giveaways Creator.
+
+/*
+ * July 14, 2017 - v6.Beta.16.8
+ */
+
+* Fixed a bug in Giveaway Templates that was setting incorrect dates for templates that end in the other month.
+* While importing in Multiple Giveaways Creator, the imported giveaways will now be removed from the text area and a progress bar will be shown.
+
+/*
+ * July 14, 2017 - v6.Beta.16.7
+ */
+
+Renamed the following features:
+
+* Giveaway Maker -> Multiple Giveaways Creator - Fixed a bug that was creating duplicate giveaways if clicking on "Create" again after finishing a creation process (closes #214). Added an option to add a counter to trains (closes #209). Added an option to import/export giveaways.
+
+/*
+ * July 13, 2017 - v6.Beta.16.6
+ */
+
+* Added an option to Game Categories to show the percentage and number of reviews next to the icon in the rating category (closes #236).
+
+/*
+ * July 13, 2017 - v6.Beta.16.5
+ */
+
+* Fixed a bug that was exporting the old group storage instead of the v6 one.
+* Fixed a bug in Giveaway Filters for the new giveaways page.
+
+/*
+ * July 13, 2017 - v6.Beta.16.4
+ */
+
+* Fixed a few bugs.
+* Enhanced Last Page Link to show the accurate last page number (closes #212).
+* Moved the "Source" link in Giveaways Encrypter/Decrypter (closes #210).
+* Fixed a bug in Giveaway Filters that was not saving the max value for entries and copies.
+* Fixed a bug in Giveaway Filters that was still showing the "Category Filters" heading even if Game Categories was disabled.
+* Added "Ratings" filter to Giveaway Filters (games that do not have a rating, either because the Steam page doesn't have it or because the script was unable to get it, have a predefined rating of 0) (closes #191).
+* Added more info about the giveaway to the popup in Enter/Leave Giveaway Button (closes #226).
+* Fixed a bug that was missing some features in Discussions Highlighter when opening them outside of the main discussions page (closes #208).
+* Fixed a bug that was showing the Whitelist/Blacklist Checker button in all pages (closes #227).
+* Added "Package" category to Game Categories (closes #180).
+
+/*
+ * July 13, 2017 - v6.Beta.16.3
+ */
+
+* Fixed a bug in Whitelist/Blacklist Checker that was happening when trying to return whitelists/blacklists.
+
+/*
+ * July 13, 2017 - v6.Beta.16.2
+ */
+
+* Fixed some bugs and made more optimizations.
+* Fixed a bug that was not showing the changelog when updating (closes #233).
+
+/*
+ * July 12, 2017 - v6.Beta.16.1
+ */
+
+* Fixed a bug that was not saving color settings.
+* Fixed a bug that was enabling the option to pop up giveaway descriptions even if it was disabled in Enter/Leave Giveaway Button.
+* Fixed a bug that was not marking things as visited in Giveaways/Discussions/Tickets/Trades Tracker if Comment Tracker was disabled (closes #230).
+
+/*
+ * July 10, 2017 - v6.Beta.16.0
+ */
+
+* Moved Giveaway/Discussions/Tickets/Trades Tracker to General.
+* Added an option that allows users to disable the script completely for SteamTrades, which also cleans the settings menu from any ST options.
+* Fixed a bug that was not showing the "Recent Username History" and "Comment History" buttons in the header menu (closes #231).
+
+Added a new feature:
+
+* Removed Game Redirecter
+
+/*
+ * July 10, 2017 - v6.Beta.15.3
+ */
+
+* Fixed a sync bug.
+
+/*
+ * July 10, 2017 - v6.Beta.15.2
+ */
+
+* Fixed a bug.
+
+/*
+ * July 9, 2017 - v6.Beta.15.1
+ */
+
+* Fixed a popup style issue.
+* Improved discussions' loading time if Comment Formatting Helper is enabled.
+
+/*
+ * July 9, 2017 - v6.Beta.15.0
+ */
+
+This update has a lot of changes, so I probably forgot to list some of them.
+
+* Removed the settings menu from the account page. It's now accessible from any page by clicking on the ESGST button.
+* You can now enable features specifically for SG or ST in the settings menu.
+* Revamped the settings menu and enumerated all settings, making it easier to reference them.
+* All feature descriptions will now be accessible from the settings menu, without the need to keep going back and forth between the settings menu and the GitHub page (this is a work in progress, some features are currently missing their description).
+* New features and functionalities will now be marked with a [NEW] tag, so it's easier to locate what's new in the current version from the settings menu.
+* Started a process of cloning SG's classes so the script no longer needs to rely on them, which will prevent any possible conflict from SG's script (solves an issue that wasn't opening the header menu on Firefox, and another issue that was replacing the ESGST button with the profile button on ST).
+* Optimized memory consumption and speed for sync, Game Categories and Created/Entered/Won Giveaway Details (possibly closes #220 and #222).
+* Brought back avatars to Grid View.
+* Giveaway Groups Loader now shows group avatars again.
+* Improved how the groups are synced in Stickied Giveaway Groups and upgraded the group storage (unfortunately, unlike previous storage upgrades, this upgrade cannot retain your stickied groups, so you will have to sticky your groups again). You must sync through the settings menu (section 9) immediately, otherwise none of the group features will work correctly in this version.
+* Fixed some bugs in Unsent Gifts Sender.
+* Comment Formatting Helper now checks to make sure the user entered the right format for encrypted giveaways (closes #225).
+* Changed the comment count to red in Comment Tracker.
+* Fixed a bug in User Giveaways Data that was showing "undefined" for sent data (closes #177).
+* Game Categories now has links for each category (closes #213) and appears in front of the game title if the simplified mode is enabled.
+* Improved a lot of other things, especially user features.
+
+Added the following features:
+
+* Giveaways/Discussions/Tickets/Trades Tracker (separated from Comment Tracker)
+* Same Tab Opener
+* Main Post Skipper (closes #22)
+
+/*
+ * June 30, 2017 - v6.Beta.14.11-Cake.Day.Edition
+ */
+
+Check the discussions for more info.
+
+/*
+ * June 29, 2017 - v6.Beta.14.10
+ */
+
+* Fixed a bug in Giveaway Filters that was filtering search results.
+
+/*
+ * June 29, 2017 - v6.Beta.14.9
+ */
+
+* Testing a new design for Grid View, feel free to provide feedback.
+* Reduced the max points limit to 100 in Giveaway Filters.
+* Fixed a bug in Giveaway Filters that was causing a conflict between points/chance filters.
+
+/*
+ * June 28, 2017 - v6.Beta.14.8
+ */
+
+* Fixed a style issue that wasn't enabling the pointer cursor for checkboxes.
+* Endless Scrolling now remembers if you had paused it and will keep it paused when refreshing or loading a new page.
+* Avanced Giveaway Search now remembers your settings.
+* You can now also click in the search icon in addition to hitting Enter to trigger Advanced Giveaway Search.
+* Added a slider to Grid View that allows you to choose the amount of space between the giveaways.
+* Fixed a bug in Giveaway Filters that was happening when there were 0 giveaways in the page.
+* Giveaway Filters now has sliders. The Entries/Copies filters are infinite, to increase/decrease their max value simply enter the new max value in the input field and it will be increased/decreased.
+
+/*
+ * June 28, 2017 - v6.Beta.14.7
+ */
+
+* Fixed various style issues that were brought with cg's latest changes.
+* Fixed a style issue in Fixed Header for SteamTrades.
+* Changed the version alert in ESGST's discussion page to a popup.
+* Added the option not to show the changelog from the current version when updating.
+* Fixed a bug in Giveaway Encrypter/Decrypter that was showing duplicated giveaways (closes #184).
+* Giveaway Encrypter/Decrypter now appears in any page (closes #188) and the giveaways are now sorted by end date. If the page you're on has a giveaway that hasn't been decrypted yet, the icon will turn green.
+* Entered giveaways are now shown correctly in Giveaway Encrypter/Decrypter.
+* Added a link to the giveaways in Giveaway Encrypter/Decrypter that links to the source of the giveaway (the comment where the giveaway came from) - only works for giveaways decrypted since this version or if you revisit the page that the decrypted giveaway is from.
+* Added "Points" filter to Advanced Giveaway Search and also a delay for showing the panel if you have Active Discussions on the sidebar (closes #207).
+
+/*
+ * June 28, 2017 - v6.Beta.14.6
+ */
+
+* Fixed a bug in Giveaway Templates that was adding 24 hours to the end time when using both precise start and end times (closes #205).
+
+/*
+ * June 27, 2017 - v6.Beta.14.5
+ */
+
+* Reverted the previous sidebar/page heading change.
+* Steam Activation Link now works after clicking the "View Key" button.
+
+/*
+ * June 27, 2017 - v6.Beta.14.4
+ */
+
+* Changed the sidebar and main page heading positions from fixed to absolute so that they scroll vertically with the page in Fixed Sidebar/Main Page Heading.
+* Fixed a bug that was causing giveaway features not to appear for invite only giveaways (closes #204).
+
+/*
+ * June 27, 2017 - v6.Beta.14.3
+ */
+
+* Fixed a style issue in Fixed Main Page Heading (closes #203).
+* Fixed a bug in Giveaway Winning Chance/Ratio that was adding 1 entry to created/ended giveaways.
+
+/*
+ * June 27, 2017 - v6.Beta.14.2
+ */
+
+* Fixed some bugs.
+* Giveaway Winning Chance and Giveaway Winning Ratio now add 1 entry to the chance/ratio calculation if you haven't entered the giveaway yet, to demonstrate what your exact chance will be when entered (closes #202).
+* Increased the delay from 0.5 to 1 second in Avatar Popout, added a delay for closing the popout, and prevented the popout from opening if a click was made.
+
+/*
+ * June 27, 2017 - v6.Beta.14.1
+ */
+
+* Fixed some bugs.
+* Changed "Everyone" to "Public" in all features that use this notation.
+* Fixed a style issue in Fixed Sidebar/Fixed Main Page Heading for changing-width sidebars/descriptions (closes #117).
+* Avatar Popout now works also when hovering hover an user's username.
+
+Renamed the following features:
+
+* Giveaway Train Maker -> Giveaway Maker - Made the interface less confusing and added a tooltip describing how to use the feature in more details (closes #200).
+
+/*
+ * June 26, 2017 - v6.Beta.14.0
+ */
+
+* Fixed a bug in Avatar Popout that was happening when quickly hovering hover an avatar.
+
+Renamed the following features:
+
+* Active Discussions On Top -> Active Discussions On Top/Sidebar - You can now choose where the active discussions appear. More info about the sidebar choice: if you have Advanced Giveaway Search enabled, it will be hidden and triggered when hovering hover the search field; the username and avatar of the user who last posted will be removed (the button to go to the last comment will remain intact); Accurate Timestamps will not run for any timestamps inside the active discussions; and any user tags you might have saved for users will be hidden inside the active discussions (they will still be visible if you click the tag button to edit them).
+
+Added the following features:
+
+* Unfaded Entered Giveaways
+
+/*
+ * June 26, 2017 - v6.Beta.13.0
+ */
+
+* The script no longer prompts alerts when features fail to load.
+* Header Refresher now changes the SG icon to red when there are unviewed keys for wins based on cg's implementation.
+
+Added the following features:
+
+* Created/Entered/Won Giveaway Details (closes #193)
+* Is There Any Deal? Info (closes #194)
+
+Removed the following features:
+
+* Delivered Gifts Notifier - This feature has been implemented by cg.
+
+/*
+ * June 25, 2017 - v6.Beta.12.4
+ */
+
+* Avatar Popout now works on hover, with a delay of 0.5 seconds. This should prevent accidental hovers and unnecessary requests, which were my main concerns about this functionality.
+
+/*
+ * June 25, 2017 - v6.Beta.12.3
+ */
+
+* The script no longer prompts alerts when errors happen, and should now only run if the page has properly loaded (no error pages) and you're logged in.
+* Fixed more bugs with giveaway features being enabled where they shouldn't.
+* Added a filtered count to each page in Giveaway Filters (closes #80).
+
+/*
+ * June 23, 2017 - v6.Beta.12.2
+ */
+
+* The script no longer runs when you aren't logged in.
+* Game Categories should now retrieve correct categories if you're a non-English user (closes #189).
+* Header Refresher is back to altering the icon of the tab (must be enabled through the settings menu). You can also choose to show the number of delivered wins in the icon if Delivered Gifts Notifier is enabled (it will be shown as yellow to the left of the unread message count, which remains red).
+* Fixed a bug in Not Activated/Multiple Wins Checker that was linking the wrong page for multiple wins.
+
+/*
+ * June 20, 2017 - v6.Beta.12.1
+ */
+
+* Fixed a bug that was not enabling Grid View if none of the other giveaway features were enabled.
+
+/*
+ * June 20, 2017 - v6.Beta.12.0
+ */
+
+* Fixed more bugs with giveaway features being enabled where they shouldn't.
+* Fixed a bug in Endless Scrolling that was not properly reversing discussions with 100+ pages.
+* Fixed a bug in Endless Scrolling that was always reversing discussions, making it impossible to go to page 1 without scrolling down from page 2. Now the reverse scrolling will only kick in if you came to page 1 from the discussions page ("/discussions"). If you came to page 1 from anywhere else, it will not reverse the discussion.
+* Extended Giveaway Filters to work in group pages.
+* Fixed a bug in Comment Tracker that was not properly going to the first unread comment of discussions with 100+ pages (closes #134).
+
+Added the following features:
+
+* Last Page Link (closes #138)
+
+/*
+ * June 20, 2017 - v6.Beta.11.2
+ */
+
+* Fixed a bug that was applying Grid View to the list of bookmarked giveaways.
+* Fixed a bug in Enter/Leave Giveaway Button that was not showing the error message on hover when failing to enter a giveaway.
+
+Upgraded the following features to v6:
+
+* Grid View - The icons are now displayed inside the image instead of outside, leaving room for more giveaways per row (on 1440x900 resolutions there should now be 5 giveaways per row instead of 4). Changed the position of the avatar to reduce white space. Moved the giveaway panel (Giveaway Winning Chance, Giveaway Winning Ratio and Enter/Leave Giveaway Button) to the left side. Added a minimum width of 400px.
+
+/*
+ * June 20, 2017 - v6.Beta.11.1
+ */
+
+* Fixed a bug that was not enabling automatic sync.
+* Added an option to display .gifv images to Visible Attached Images.
+* Fixed a bug that was not enabling Giveaway Bookmarks in the bookmarked giveaways list and was not unbookmarking a giveaway when entering it.
+* Changed how Giveaway Winning Chance and Giveaway Winning Ratio are shown in the entered page.
+* Fixed a bug in Enter/Leave Giveaway Button that was not resetting the "Entering..." button when closing the popup without entering.
+* When entering a giveaway that has no description with "Popup reply box when entering / include it in the description popup." enabled, Enter/Leave Giveaway Button will now immediately enter the giveaway and then pop up the reply box if you want to add a comment.
+* Fixed a bug that was not enabling Comment Tracker for page 2+ while using Endless Scrolling.
+* Fixed a bug in Groups Stats while using Endless Scrolling.
+
+/*
+ * June 20, 2017 - v6.Beta.11.0
+ */
+
+* Fixed a typo in Giveaway Templates.
+
+Added the following features:
+
+* Giveaway Train Maker
+
+/*
+ * June 20, 2017 - v6.Beta.10.3
+ */
+
+* Fixed a bug in Giveaway Bookmarks that was not bookmarking giveaways from the entered page.
+
+Upgraded the following features to v6:
+
+* Giveaway Templates - Changed how the data is stored (just like with previous storage upgrades, your data should be transferred without any losses, but let me know about any missing data). Revamped the feature (closes #52). Added options to use precise start/end time. The "Review Giveaway" button now appears both at the top and at the bottom of the page. Added a new "Create Giveaway" button that creates the giveaway directly without passing through the review step.
+
+/*
+ * June 20, 2017 - v6.Beta.10.2
+ */
+
+* Fixed a bug in Giveaway Bookmarks caused by the last update.
+
+/*
+ * June 20, 2017 - v6.Beta.10.1
+ */
+
+* Fixed a bug that was not saving the hours for Giveaway Bookmarks correctly from the settings menu.
+* Giveaway Bookmarks now works with giveaways that have not started yet. Here's more info about it: giveaways that have not started yet will not appear in the list of bookmarked giveaways; instead, they will stay in a sort of hidden state until they start; when they start, the header bookmark button will turn green, indicating that you must open the list of bookmarked giveaways so that the started giveaways can be updated with their end times; when giveaways are about to end, the button will continue to turn red as before, but if there are both started and ending giveaways, the button will be colored with a brown-ish color; hovering over the button also gives you more details about how many giveaways have started and/or are ending.
+
+/*
+ * June 20, 2017 - v6.Beta.10.0
+ */
+
+* Fixed more bugs for giveaway features being enabled in places where they shouldn't (closes #186).
+* Added a sorting feature to Giveaway Winning Chance (closes #44).
+* Disabled Giveaway Bookmarks for giveaways that have not started yet because the feature is not configured to work well with them and will always alert that they are ending (I'll figure out a way to make it work later).
+
+Added the following features:
+
+* Discussions Sorter
+
+/*
+ * June 20, 2017 - v6.Beta.9.0
+ */
+
+* Fixed a bug in Comment Tracker that was not correctly going to the first unread comment of a page (closes #185).
+
+Added the following features:
+
+* Whitelist/Blacklist Sorter - Must sync through the settings menu for it to work properly (closes #46).
+
+/*
+ * June 20, 2017 - v6.Beta.8.3
+ */
+
+* Fixed a bug that was happening in the new giveaway page (closes #183).
+* Every time you visit the ESGST discussion, the script will now check if you are on the latest version by checking for a hidden element in the OP (no requests required) and will give you an alert if you aren't (closes #147).
+* Fixed a bug in Giveaway Filters that was filtering giveaways from Giveaway Bookmarks (closes #169).
+* Fixed a bug in Comment History that was happening when loading the history (closes #182).
+
+/*
+ * June 20, 2017 - v6.Beta.8.2
+ */
+
+* Fixed some issues with where some giveaway features were being enabled.
+* Fixed a bug in Giveaway Filters that was not filtering giveaways by chance.
+* Added a loading icon while marking comments as read/unread in Comment Tracker.
+* All game features are now supported for discussion tables (works well with RaCharts).
+
+/*
+ * June 19, 2017 - v6.Beta.8.1
+ */
+
+* Fixed a bug in Giveaway Filters that was not filtering giveaways on page load unless Game Categories was enabled.
+* Fixed a bug in Game Categories that was trying to filter giveaways on user pages.
+
+/*
+ * June 18, 2017 - v6.Beta.8.0
+ */
+
+* Fixed a bug that was not properly handling username changes (closes #176).
+* Fixed a bug in Giveaway Filters that was not applying category filters (closes #173).
+* Game Categories should now load a lot faster, unless "Rating" or "User-Defined Tags" are enabled.
+
+Added the following features:
+
+* Steam Activation Link (closes #177)
+
+/*
+ * June 15, 2017 - v6.Beta.7.2
+ */
+
+* Fixed a bug in Unsent Gifts Sender that was happening while sending gifts with the option to only send gifts to users with 0 not activated/multiple wins enabled.
+
+/*
+ * June 15, 2017 - v6.Beta.7.1
+ */
+
+* Fixed a bug that wasn't applying the popup class for some popups.
+* Fixed a bug in Enter/Leave Giveaway Button.
+* Made some optimizations to Enter/Leave Giveaway Button that should reduce memory usage when entering multiple giveaways in a row.
+
+/*
+ * June 14, 2017 - v6.Beta.7.0
+ */
+
+* Moved Shared Groups Checker to the same place as Username History and User Notes.
+
+Added the following features:
+
+* User Filters (closes #51)
+
+/*
+ * June 14, 2017 - v6.Beta.6.3
+ */
+
+* Removed periods from all tooltips (closes #166).
+* Added tooltip to User Notes button (closes #167).
+* Fixed a bug that was enabling some giveaway features where they shouldn't (closes #168).
+* Entered giveaways are now automatically unbookmarked in Giveaway Bookmarks.
+* The option to change the background instead of fading out has been removed from Comment Tracker and implemented by default on hover (#closes 143).
+
+/*
+ * June 14, 2017 - v6.Beta.6.2
+ */
+
+* Fixed a bug that was preventing the script from running.
+
+/*
+ * June 14, 2017 - v6.Beta.6.1
+ */
+
+* Fixed a bug that was preventing the script from running.
+
+/*
+ * June 14, 2017 - v6.Beta.6.0
+ */
+
+* Fixed a bug that was happening in the entered page if Giveaway Winning Chance, Giveaway Winning Ratio and Enter/Leave Giveaway Button were disabled.
+* Changed the position of Giveaway Filters to above the pinned giveaways, so that it is fixed when filtering the giveaways (closes #165).
+* Added back the background highlight to groups that you are a member of to the popup option in Giveaway Groups Loader.
+* Fixed a bug that was not running Comment Tracker in Active Discussions (closes #162).
+* Fixed a bug in Comment Tracker that was not showing the read/unread button under the OP.
+* Fixed a bug in Comment Tracker that was not unfading a comment when making it as unread.
+* OPs are no longer counted as comments in Comment Tracker (closes #159).
+* You can now mark discussions as unvisited in Comment Tracker.
+
+Added the following features:
+
+* Giveaway Bookmarks
+
+/*
+ * June 14, 2017 - v6.Beta.5.5
+ */
+
+* Removed the minimum popout size from Grid View.
+
+/*
+ * June 14, 2017 - v6.Beta.5.4
+ */
+
+* Another possible fix to the Comment Tracker bug.
+
+/*
+ * June 14, 2017 - v6.Beta.5.3
+ */
+
+* Fixed a bug in Grid View that wasn't working well with Giveaway Filters.
+* Set a fixed width to the Grid View popout to 600px to prevent things from inflating the page.
+* Possibly fixed a bug in Comment Tracker that was showing the wrong comment count for discussions (possibly closes #134 and #160).
+
+/*
+ * June 13, 2017 - v6.Beta.5.2
+ */
+
+* Fixed a bug in Giveaway Groups Loader that wasn't showing some groups (closes #158).
+* Added an option to only show groups that you are a member of to Giveaway Groups Loader.
+* Added back the option to use a popup to load giveaway groups to Giveaway Groups Loader.
+* Fixed a bug in Enter/Leave Giveaway Button that was still popping up the description even if it was disabled when leaving a giveaway and entering it again.
+* Fixed a bug that was not enabling Discussions Highlighter in the main discussions page if Comment Tracker was disabled.
+* Added back the option that was missing from Comment Tracker to mark discussions as visited.
+* Fixed a bug in Not Activated/Multiple Wins Checker that was getting stuck at the first user while checking.
+
+/*
+ * June 13, 2017 - v6.Beta.5.1
+ */
+
+* Fixed a bug that was preventing the script from running.
+* Decrypted Giveaways are no longer cached (they are now retrieved in real time for accurate number of entries/comments, etc) (closes #141).
+* Removed an extra underline that popup links had (closes #127).
+
+/*
+ * June 13, 2017 - v6.Beta.5.0
+ */
+
+* Fixed a bug that was happening when visiting deleted giveaways.
+* Major user storage upgrade to v6. As with the previous upgrades, your data should be transferred without any losses, but let me know about any missing data (if you do find missing data, do not panic - none of the v5 storage is deleted, so it can be easily recovered). As a result, managing tags from the settings menu has been temporarily disabled until it has been rewritten for v6.
+* Added options to manage user data individually to the settings menu (closes #139).
+* Fixed an issue that was breaking discussion titles (closes #153).
+* Disabled the giveaway panel, which makes the icons of the giveaway appear in the entries/comments row, if you don't have Giveaway Winning Chance, Giveaway Winning Ratio and Enter/Leave Giveaway Button, as these make the row too large with the icons in the default row.
+* Corrected created time for the list of highlighted discussions (closes #155).
+* You can now use the Enter key to save tags.
+* If you hover hover whitelist/blacklist highlights, you will now see when you whitelisted/blacklisted that user (must be synced through the settings menu).
+
+* Added the following features:
+
+* Giveaway Grops Loader - Replaces Giveaway Groups Popup (can be added back if there is demand for it).
+* One-Click Giveaway Hider (closes #156)
+
+/*
+ * June 12, 2017 - v6.Beta.4.8
+ */
+
+* Fixed an exploit that could be used to check all pages under "/discussions", "/users" and "/archive" in Whitelist/Blacklist Checker.
+
+/*
+ * June 12, 2017 - v6.Beta.4.7
+ */
+
+* Fixed some bugs.
+* Added back the option to disable description popups to Enter/Leave Giveaway Button, but made the popups enabled by default.
+* Fixed a bug in Comment Tracker that wasn't resetting the loading icon when using reverse order to find an unread comment.
+* Fixed a typo in Comment Tracker (closes #154).
+* Enhanced the option to mark all comments as unread in a discussion in Comment Tracker to prevent it from making any requests (closes #152).
+
+Upgraded the following features to v6:
+
+* Avatar Popout - Completely revamped the feature using the styling from SquishedPotatoe's dark theme (it might also be incompatible with the theme for the moment because of class name changing) (closes #67).
+
+/*
+ * June 12, 2017 - v6.Beta.4.6
+ */
+
+* Added additional information to error alerts, so that the users properly report errors when they happen.
+* Reverted Comment History's default behavior to fading out.
+
+/*
+ * June 11, 2017 - v6.Beta.4.5
+ */
+
+* Fixed more Comment Tracker bugs.
+* Darkened the highlight in Comment Tracker.
+
+/*
+ * June 11, 2017 - v6.Beta.4.4
+ */
+
+* Fixed a bug that was not updating the sync date after syncing the bundle list (closes #99).
+* Prevented some buttons from appearing in places where they shouldn't (closes #103).
+* Added "Created" filter to Giveaway Filters (closes #137).
+* Fixed some bugs in Comment Tracker.
+* Fixed a bug in Whitelist/Blacklist Checker that was retrieving the wrong pages if the URL had a hash (closes #57).
+* Re-enabled the full list check option for the main giveaway pages in Whitelist/Blacklist Checker.
+
+/*
+ * June 11, 2017 - v6.Beta.4.3
+ */
+
+* Fixed a couple bugs in Header Refresher on SteamTrades.
+
+/*
+ * June 11, 2017 - v6.Beta.4.2
+ */
+
+* Fixed a bug in Grid View.
+* Added "Last Checked" information to the tooltip of Whitelist/Blacklist Checker and Not Activated/Multiple Wins Checker highlights (closes #142).
+
+Upgraded the following features to v6:
+
+* Comment Tracker - Fixed some bugs (possible solution to #134). Changed how the data is stored (your data should be transferred without any losses, but let me know about any missing data). You can now mark comments as unread (closes #128). Read comments and visited giveaways/discussions are no longer faded out - their background now changes to grey (possible solution to #143). The feature now works in the inbox page.
+* Discussion Highlighter - You can now view your highlighted discussions through the Discussions header button (closes #133).
+
+/*
+ * June 11, 2017 - v6.Beta.4.1
+ */
+
+* Fixed a bug that was erasing game data when syncing owned games.
+
+/*
+ * June 11, 2017 - v6.Beta.4.0
+ */
+
+* Revamped Header Refresher to work better with Enter/Leave Giveaway Button and discontinued its support for Greasemonkey (if you are using Greasemonkey and you open multiple tabs, only one tab will refresh the header).
+* Level Progress Visualizer now takes up the entire main button. As a result, the hover effect has been disabled.
+* Giveaway Filters now has a separate setting for each of the giveaway pages (all, recommended, wishlist, group, new).
+* Added some titles and tooltips to Giveaway Filters.
+* Giveaway Filters now works if an advanced search was made, but the basic filters and the region restricted/dlc filters are disabled, as they are part of the advanced search.
+
+Upgraded the following features to v6:
+
+* Giveaway Winning Chance - Separated it into Giveaway Winning Chance and Giveaway Winning Ratio.
+* Enter/Leave Giveaway Button - Fixed some bugs (closes #136 and #146). The feature now automatically detects if you own the game (you must of course sync through the settings menu) or if the giveaway is for a higher level than you and does not show the Enter button in case one of these is true (closes #132). Entered giveaways are now immediately hidden if the filter is enabled (closes #129). If an error occurs while entering a giveaway or if you don't have enough points, the button will simply turn red instead of adding an additional button to its side (partial solution to #89). Brought back the option to add a comment to the giveaway upon entering.
+
+Added the following features:
+
+* Quick Giveaway Browsing
+
+/*
+ * June 10, 2017 - v6.Beta.3.18
+ */
+
+* You can manage Comment History/Game data again through the settings menu.
+* You can now manage Game data individually between Game Tags, Entered Games Highlighter and Game Categories data.
+* Fixed some bugs and improved some things.
+
+/*
+ * June 9, 2017 - v6.Beta.3.17
+ */
+
+* Fixed a bug in Level Progress Visualizer.
+* Fixed a bug in Enter/Leave Giveaway Button that was not resetting the button when closing the giveaway description popup.
+
+/*
+ * June 9, 2017 - v6.Beta.3.16
+ */
+
+* Changed how the comment history data is stored (your old data should be transferred without any problems, but let me know about any missing data). As a result, the option to import/export comment history data has been temporarily disabled until it is rewritten for the new system.
+* Comment History has been completely revamped and there are now two different data storages (one for SG and one for ST). The new data storages should also take much less memory space.
+* Fixed a bug in Game Categories that wasn't applying the negative class for "Rating" category.
+* Added an option to Enter/Leave Giveaway Button to pop up the giveaway description in the same window instead of opening it in another tab.
+* Fixed a bug in Enter/Leave Giveaway Button that was opening the giveaway description when leaving a giveaway.
+
+Added the following features:
+
+* Level Progress Visualizer (closes #144)
+
+/*
+ * June 9, 2017 - v6.Beta.3.15
+ */
+
+* Fixed a bug from v6.Beta.3.14.
+
+/*
+ * June 9, 2017 - v6.Beta.3.14
+ */
+
+* Fixed some bugs and made some improvements.
+* Changed how the game data is stored (your old data should be transferred without any problems, but let me know about any missing data).
+* Fixed a conflict between games' app/sub ids. As a result, Multi-Tag and the option to import/export game data have been temporarily disabled until they are rewritten for the new system.
+* Reinforced how the gama data is saved to further prevent data from being overwritten. As a result, you might notice that game features now take a bit longer to save.
+* Added "Rating" and "User-Defined Tags" categories to Game Categories (closes #130).
+* Changed the default colors for Game Categories and added a button to the settings menu that allows you to reset the colors to their default values.
+* Changed the "Wishlisted" and "Ignored" icons in Game Categories.
+* Game Categories now works on any page (closes #108).
+* Game Categories now retrieves data from the US store (closes #123).
+
+Renamed the following features:
+
+* Games Highlighter -> Entered Games Highlighter - Fixed some bugs and made some improvements. The star icon should now be immediately added upon entering a giveaway.
+
+Removed the following features:
+
+* Giveaway Description/Comment Box Popup - Upon clicking the Enter/Leave giveaway button, the script now checks for a description. If it finds one, it opens the giveaway in a new tab so you can read it before entering, otherwise it enters the giveaway automatically.
+
+/*
+ * June 2, 2017 - v6.Beta.3.13
+ */
+
+* Added the option to show points in the title to Header Refresher, and the option to show an icon in the title to highlight new messages. The icon chosen was "fire", because you got new messages, so you're "hot". If anyone has a better suggestion, feel free to let me know.
+* Separated the option to notify delivered gifts from Header Refresher back into Delivered Gifts Notifier.
+* Fixed a bug in Endless Scrolling that was happening while refreshing a page.
+* Fixed a bug in Giveaway Encrypter/Decrypter that was happening for giveaways with multiple copies.
+
+/*
+ * May 29, 2017 - v6.Beta.3.12
+ */
+
+* Internally tweaked Visible Attached Images, Embedded Videos and Pagination Navigation On Top a little.
+* Added the options to use a 24-hour clock and to show seconds in Accurate Timestamps and shortened the name of the months to the Mmm notation.
+* Fixed a bug in Giveaway Winning Chance that was happening for giveaways that have not started yet (closes #131).
+
+/*
+ * May 29, 2017 - v6.Beta.3.11
+ */
+
+* Header Icons Refresher, Points Refresher and Delivered Gifts Notifier have been merged into a single Header Refresher feature (see more details below).
+* Endless Scrolling no longer alters the title/URL of the page.
+* Added/changed some icons in the simplified version of Game Categories.
+
+Upgraded the following features to v6:
+
+* Header Refresher - If multiple tabs are open, only one tab will now make requests to refresh the header and then it will sync the changes with the other tabs (this happens instantly with Tampermonkey). The number of delivered wins will now appear in the title of the tab e.g. (2W). The icon of the tab is no longer changed, the message count will now appear in the title of the tab e.g. (5M). The level on SG and the reputation on ST are now refreshed as well, but they will not appear in the title of the tab. Points are updated instantly and refreshed across all open tabs when using Enter/Leave Giveaway Button with Tampermonkey (with Greasemonkey, it will still update, but only after 60 seconds). An example of all items combined: (2W) (5M) (150P) SteamGifts
+
+/*
+ * May 26, 2017 - v6.Beta.3.10
+ */
+
+* Added back the option to sync using the Steam API key, but made it optional. If there is a Steam API key saved, it will sync using both Steam API key and login, otherwise it will sync using only login.
+* Added the option to enable a simplified version of Game Categories that can either show initials of the categories or icons (suggestions for the icons are always welcome, as I wasn't sure which icon to choose for some categories).
+
+/*
+ * May 26, 2017 - v6.Beta.3.9
+ */
+
+* Changed the way the sync works (it no longer requires a Steam API key, but you must be logged in on Steam).
+* Category filters are now applied to exceptions in Giveaway Filters (closes #115).
+* Added "Chance" and "Genres" filters to Giveaway Filters (closes #101).
+* Added "Ignored" category to Game Categories (must be synced through the settings menu).
+
+/*
+ * May 26, 2017 - v6.Beta.3.8
+ */
+
+* Fixed a bug in Giveaway Encrypter/Decrypter.
+* Added the option to add an icon next to the usernames instead of coloring them to Not Activated/Multiple Wins Checker.
+* Added the option to highlight multiple wins as positive to Not Activated/Multiple Wins Checker, as multiple wins often cannot be fixed.
+* Added the option to color the usernames instead of adding an icon next to them to Whitelist/Blacklist Checker. If this option is enabled, Not Activated/Multiple Wins Checker highlights will automatically appear as icons to avoid conflict.
+
+/*
+ * May 26, 2017 - v6.Beta.3.7
+ */
+
+* Fixed a bug in Comment Tracker that was unmarking some comments as read because of the last update.
+
+/*
+ * May 26, 2017 - v6.Beta.3.6
+ */
+
+* Fixed a bug in Exclusive Giveaways that was happening for games that the user has hidden (closes #126).
+* Fixed a bug in Exclusive Giveaways that was duplicating elements when using endless scrolling.
+* Fixed a bug in Embedded Videos that was trying to embed channels/playlists (closes #112).
+* Your own comments are now automatically marked as read in Comment Tracker.
+
+Renamed the following features:
+
+* Exclusive Giveaways -> Giveaways Encrypter/Decrypter - This prevents any confusion about the nature of this feature. The giveaways are not really exclusive (anyone can see them in the source code of the page), this feature simply decrypts them and hands them over to the user (closes #125).
+
+Upgraded the following features to v6:
+
+* Username History
+* User Notes - Fixed a bug that was not loading it on SteamTrades.
+
+/*
+ * May 25, 2017 - v6.Beta.3.5
+ */
+
+* New updates of the script will now show a popup with the changelog from the current version (closes #119).
+* Fixed a bug that was not exporting all settings (closes #122).
+* Added an option to the settings menu that allows you to merge the imported data with the current data when importing.
+* Added the option to export Exclusive Giveaways data to the settings menu.
+* Improved the update link in the header button: it now checks if there is an update before loading the link (closes #118).
+* Fixed a bug in Exclusive Giveaways that was happening in the inbox page.
+* Revamped the Exclusive Giveaways popup and improved the feature: the giveaways are now requested to gather information about them (only appears in the popup), new giveaways appear with the tag [NEW] (closes #121), and ended giveaways no longer appear.
+* Added an option to User Notes that prompts for notes when whitelisting/blacklisting an user.
+* Fixed a typo in the link to the changelog on SteamGifts (closes #109).
+
+/*
+ * May 25, 2017 - v6.Beta.3.4
+ */
+
+* Fixed a bug that was disabling Real CV Calculator every time a giveaway was created (closes #124).
+
+/*
+ * May 23, 2017 - v6.Beta.3.3
+ */
+
+* Reverted the script back to a single file instead of separate ones. This is actually more maintainable than using separate files, and also allows users to customize the script more easily.
+
+/*
+ * May 23, 2017 - v6.Beta.3.2
+ */
+
+* Added the icon of the script to the metadata.
+* Fixed a bug that was injecting the script several times in Firefox-based browsers and causing several errors.
+
+/*
+ * May 23, 2017 - v6.Beta.3.1
+ */
+
+* Added an exception to Exclusive Giveaways to be enabled by default upon installation.
+* Added a line break to the list of giveaways in Exclusive Giveaways and also a star icon to comments that have hidden giveaways.
+
+/*
+ * May 23, 2017 - v6.Beta.3.0
+ */
+
+* Fixed a bug in Header Icons Refresher that was showing a "+" icon when there were no messages.
+* Fixed a bug in Giveaway Filters that was enabling it for SteamTrades.
+
+Added the following features:
+
+* Real CV Calculator
+* Exclusive Giveaways
+
+/*
+ * May 23, 2017 - v6.Beta.2.4
+ */
+
+* Fixed a bug in Endless Scrolling that didn't update the filtered count from Giveaway Filters upon refreshing the page.
+* Prevented Giveaway Filters from running if an advanced search has been made.
+* Added "Wishlist" exception to Giveaway Filters.
+* Fixed a bug in Entries Remover that happened when syncing owned games (closes #110).
+* Added an option to Whitelist/Blacklist Checker that automatically saves notes to users that have been whitelisted/blacklisted in return (closes #59).
+* Fixed a bug in Whitelist/Blacklist Checker that was returning wrong results for blacklisted users.
+
+/*
+ * May 23, 2017 - v6.Beta.2.3
+ */
+
+* The automatic sync is now less intrusive and appears as a button in the header (which you can click to see the current progress), and only works in the main and account pages.
+* Fixed a bug in Giveaway Filters that wasn't running it for page 2+ with Endless Scrolling.
+* Added exceptions to Giveaway Filters (closes #106).
+* Filters for the wishlist and group pages are now saved separately in Giveaway Filters (closes #107).
+* Fixed a bug in Game Categories that was preventing Giveaway Description/Reply Box Popup from working in user pages (closes #105).
+
+/*
+ * May 23, 2017 - v6.Beta.2.2
+ */
+
+* Changed the script to disable all features upon the first installation.
+* Updated Giveaway Filters to work with three-state checkboxes: none, only and all.
+* Added "Pinned", "Group" and "Whitelist" filters to Giveaway Filters.
+* Fixed a bug in Giveaway Filters that wasn't filtering out entered giveaways with Grid View enabled (closes #104).
+* Added "Owned" tag to Game Categories (must sync owned games through the settings menu).
+* Fixed a bug in Game Categories where multiplayer and mac had the same id.
+* Fixed a bug in Game Categories that was not loading tags for certain games.
+
+/*
+ * May 22, 2017 - v6.Beta.2.1
+ */
+
+* The links from the header button now open in the same page instead of in a new window (closes #102).
+* Changed the table creation in Comment Formatting Helper from a popout to a popup (closes #70).
+* Increased the Game Categories cache to 1 month, as it was previously 24 hours for testing purposes.
+* Prevented the bundle tags in Game Categories to be displayed if the user has not synced yet.
+* Fixed a bug in Game Categories that was displaying "Not Bundled" tags even if the bundled category was disabled (closes #100).
+* Fixed a bug in Game Categories that was happening while creating a giveaway (closes #98).
+
+/*
+ * May 22, 2017 - v6.Beta.2.0
+ */
+
+Added the following features:
+
+* Giveaway Filters (replaces Entered Giveaways Filter)
+
+/*
+ * May 22, 2017 - v6.Beta.1.4
+ */
+
+* Fixed a bug on SteamTrades that was leaking popups at the end of the page.
+* Fixed a bug in Giveaway Templates that was preventing templates from being applied.
+* Added a "Wishlist" category for Game Categories (must be synced through the settings menu).
+
+/*
+ * May 22, 2017 - v6.Beta.1.3
+ */
+
+* Added a "Not Bundled" category for Game Categories and the option to customize the colors.
+* Fixed a bug in Game Categories that was showing incorrect categories for the new giveaway page.
+
+/*
+ * May 22, 2017 - v6.Beta.1.2
+ */
+
+* Added more categories to Game Categories and added support for giveaway comment pages.
+
+/*
+ * May 21, 2017 - v6.Beta.1.1
+ */
+
+* Fixed a the resource link to the style file.
+
+/*
+ * May 21, 2017 - v6.Beta.1.0
+ */
+
+* Fixed a bug in Giveaway Winning Chance that was loading it every time a new page was loaded through Endless Scrolling in the giveaway comment pages.
+
+Added the following features:
+
+* Game Categories (closes #93)
+
+/*
+ * May 21, 2017 - v6.Beta.0.4
+ */
+
+* Fixed a bug that happened when trying to retrieve the xsrf_token from the page.
+* Fixed a bug that was mixing the script's popups with SteamTrades' popups (closes #72).
+* The popups are now repositioned upon clicking on them (closes #83).
+* Changed the max width of popups to 75% (it was previously not set, which was making some popups have a 100% width).
+* Fixed a bug on SteamTrades that happened when going to the permalink of a comment.
+* Fixed a bug in Visible Attached Images and added support for images in the format .gifv.
+* Fixed a bug in Embedded Videos.
+* Added endless scrolling support to Giveaway Description/Reply Box Popup.
+* Added the option to only send gifts to users who are still members of at least one of the groups for group giveaways in Unsent Gifts Sender and added endless scrolling support for it (closes #90).
+* Fixed a bug on SteamTrades that was enabling Discussion Edit Detector in the user pages.
+* Fixed a bug in Comment Formatting Helper that was not enabling endless scrolling support for it.
+* Fixed a bug in Reply Box On Top for the user pages on SteamTrades.
+
+/*
+ * May 21, 2017 - v6.Beta.0.3
+ */
+
+* Fixed a bug in Endless Scrolling that was not stopping at the last page and continuously loading it.
+
+/*
+ * May 21, 2017 - v6.Beta.0.2
+ */
+
+* Fixed a bug in Embedded Videos and added more link formats.
+* Fixed a bug in Endless Scrolling that was removing filters from the URL.
+* Added support for the new DLC filter to Advanced Giveaway Search.
+* Fixed a bug in Comment Formatting Helper that was not adding the helper to all text areas of the page.
+* Added endless scrolling support and an option to clear the cache to User Giveaways Data.
+* Fixed some bugs in Whitelist / Blacklist Checker, added support for the Two-Way Blacklists update and an option to clear the caches.
+
+/*
+ * May 21, 2017 - v6.Beta.0.1
+ */
+
+* Fixed a bug in User Giveaways Data that was not returning complete results.
+* Fixed a bug that was running Accurate Timestamps even if it was disabled.
+
+/*
+ * May 20, 2017 - v6.Beta.0.0
+ */
+
+* Created an icon for the script.
+* Separated all features into different files.
+* Fixed some typos in the README file (closes #94).
+* Created new icons for Header Icons Refresher and added support for SteamTrades.
+* Fixed a bug in Comment Tracker that was not marking some discussions as visited from the main page (closes #95).
+* The URL field for link and image in Comment Formatting Helper is now automatically focused upon opening and you can now select a part of the text to use as Title.
+* Fixed a bug in User Giveaways Data that was not updating the data correctly for users with ongoing giveaways (closes #68).
+
+Renamed the following features:
+
+* Blacklist Stats Hider -> Hidden Blacklist Stats
+* Featured Container Hider -> Hidden Featured Container
+* Giveaway Description/Comment Box Popup -> Giveaway Description/Reply Box Popup
+* Main Comment Box Popup -> Reply Box Popup
+* Permanent User Notes -> User Notes
+* Permanent User Tags -> User Tags
+* Entered Games Highlighter -> Games Highlighter
+
+Upgraded the following features to v6:
+
+* Fixed Elements - Separated the feature into individual features (Fixed Header, Fixed Sidebar, Fixed Main Page Heading and Fixed Footer). Fixed Main Page Heading works much more smoother, especially in small pages.
+* Visible Attached Images
+* Accurate Timestamps - Changed the timestamp format to match SteamGifts' format.
+* Endless Scrolling - Fixed several bugs (closes #50) and made several improvements. Reverse scrolling now loads the last page first.
+* Hidden Featured Container
+* Active Discussions On Top - The ad is no longer brought to the top.
+
+Added the following features:
+
+* Header Button
+* Embedded Videos - Partial solution to #89.
+* Pagination Navigation On Top
+* Reply Box On Top

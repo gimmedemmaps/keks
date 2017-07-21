@@ -1,11 +1,5 @@
 /*
- * July 21, 2017 - v69.694
- */
-
-* Fixes to work with the latest steamgift changes
-
-/*
- * June 16, 2017 - v69.69.3
+ * June 16, 2017 - v69.1
  */
 
 * Updated base to latest ESGST and added memes to the buttons.
@@ -15,3 +9,4 @@
  */
 
 * Initial build.
+
