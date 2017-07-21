@@ -8,8 +8,8 @@
 * More memes ( ͡° ͜ʖ ͡°)
 
 * Here's my setup which I recommend you copy 
-[url=https://www.youtube.com/strmods][u]click here[/u]|[/url]
-https://raw.githubusercontent.com/gimmedemmaps/keks/master/settings.png
+[url=https://raw.githubusercontent.com/gimmedemmaps/keks/master/settings.png]view setup[/url]
+
 
 /*
  * June 16, 2017 - v69.69.3
