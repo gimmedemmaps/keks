@@ -3162,7 +3162,7 @@
     }
 
     function loadChangelog() {
-        makeRequest(null, `https://raw.githack.com/gimmedemmaps/keks/master/changelog.txt`, null, function (response) {
+        makeRequest(null, `https://raw.githubusercontent.com/gimmedemmaps/keks/master/changelog.txt`, null, function (response) {
             var changelogPopup = createPopup();
             changelogPopup.Icon.classList.add(`fa-file-text-o`);
             changelogPopup.Title.textContent = `Changelog`;
