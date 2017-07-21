@@ -3,7 +3,7 @@
 // @namespace STRmods ESGST
 // @description Enhances SteamGifts and SteamTrades by adding some cool features to them.
 // @icon https://www.dropbox.com/s/914ol7idiattpf1/strmods.ico?dl=1
-// @version 69 action Beta v69.694
+// @version 69 action Beta v69.7
 // @author STRmods and ma boi revilheart
 // @downloadURL https://www.dropbox.com/s/fvn2fkes97thlr3/STRmods-ESGST.user.js?dl=1
 // @updateURL https://www.dropbox.com/s/1oefnfdk0jycpmw/STRmods-ESGST.meta.js?dl=1
