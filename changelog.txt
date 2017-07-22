@@ -1,10 +1,11 @@
-/*
+﻿/*
  * July 21, 2017 - v69.911
  */
 
 * Fixes to work with the latest steamgift changes
 * Fixed many old bugs.
 * Decrypted giveaways now available (star icon at the top) (decrypted giveaways are from users of the original script who make secret giveaways normal users can't see)
+* Added many new features of base script (train improvements and more) 
 * More memes ( ͡° ͜ʖ ͡°)
 
 * Here's my setup which I recommend you copy. 

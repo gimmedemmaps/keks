@@ -2826,10 +2826,10 @@
                                 if (esgst.tge) {
                                     button = document.createElement(`div`);
                                     button.className = `esgst-heading-button`;
-                                    button.title = `Board the train!`;
+                                    button.title = `Allllll aboard!`;
                                     button.innerHTML = `
-                                        <i class="fa fa-train"></i> Board the train!
-                                        <i class="fa fa-search"></i>
+                                        <i class="fa fa-train"></i> Board the train! 🚂🚃🚃🚃
+                                        <i class="fa fa-train"></i>
                                     `;
                                     mainPageHeadingBefore.appendChild(button);
                                     button.addEventListener(`click`, extractTgeGiveaways.bind(null, {
@@ -11136,12 +11136,12 @@ ${Results.join(``)}
 
     function extractTgeGiveaways(tge) {
         if (!tge.popup) {
-            tge.popup = createPopup_v6(`fa-train`, `Choo choo!`);
+            tge.popup = createPopup_v6(`fa-train`, `Choo choo! 🚂🚃🚃🚃`);
             tge.results = insertHtml(tge.popup.description, `beforeEnd`, `<div class="esgst-text-left"></div>`);
             if (esgst.gf) {
                 addGfContainer(tge.results);
             }
-            tge.set = createButtonSet(`green`, `grey`, `fa-search`, `fa-times`, `All aboard!`, `Jump from the moving train`, startExtracting.bind(null, tge), completeExtraction.bind(null, tge)).set;
+            tge.set = createButtonSet(`green`, `grey`, `fa-search`, `fa-times`, `All aboard!`, `Jump from the moving train?`, startExtracting.bind(null, tge), completeExtraction.bind(null, tge)).set;
             tge.popup.description.appendChild(tge.set);
         }
         tge.popup.open();
