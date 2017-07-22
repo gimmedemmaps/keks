@@ -2826,9 +2826,9 @@
                                 if (esgst.tge) {
                                     button = document.createElement(`div`);
                                     button.className = `esgst-heading-button`;
-                                    button.title = `Extract train giveaways.`;
+                                    button.title = `Board the train!`;
                                     button.innerHTML = `
-                                        <i class="fa fa-train"></i>
+                                        <i class="fa fa-train"></i> Board the train!
                                         <i class="fa fa-search"></i>
                                     `;
                                     mainPageHeadingBefore.appendChild(button);
@@ -11141,7 +11141,7 @@ ${Results.join(``)}
             if (esgst.gf) {
                 addGfContainer(tge.results);
             }
-            tge.set = createButtonSet(`green`, `grey`, `fa-search`, `fa-times`, `Extract`, `Cancel`, startExtracting.bind(null, tge), completeExtraction.bind(null, tge)).set;
+            tge.set = createButtonSet(`green`, `grey`, `fa-search`, `fa-times`, `All aboard!`, `Jump from the moving train`, startExtracting.bind(null, tge), completeExtraction.bind(null, tge)).set;
             tge.popup.description.appendChild(tge.set);
         }
         tge.popup.open();
@@ -11152,7 +11152,7 @@ ${Results.join(``)}
         tge.progress = insertHtml(tge.popup.description, `beforeEnd`, `
             <div>
                 <i class="fa fa-circle-o-notch fa-spin"></i>
-                <span>0</span> giveaways extracted.
+                <span>0</span> carriages on this train!
             </div>
         `).lastElementChild;
         tge.visited = [];
