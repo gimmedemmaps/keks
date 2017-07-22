@@ -8,8 +8,10 @@
 * Added many new features of base script (train improvements and more) 
 * More memes ( ͡° ͜ʖ ͡°)
 
-* Here's my setup which I recommend you copy. 
+* Here's my new setup which I recommend you copy. 
 http://i.imgur.com/HvCvS1f.png
+
+
 
 
 /*
@@ -17,6 +19,8 @@ http://i.imgur.com/HvCvS1f.png
  */
 
 * Updated base to latest ESGST and added memes to the buttons.
+
+
 
 /*
  * June 07, 2017 - v1.69
