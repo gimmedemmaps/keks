@@ -34170,8 +34170,8 @@ this._delay(function(){n===this.counter&&this.refreshPositions(!s)})},_clear:fun
                 version: `69 action Beta v69.911-2`,
                 changelog: `
                     <ul>
-                        <li>Implemented STRmods customisation to 7.7.2 base script ( ͡° ͜ʖ ͡°)         <a href="https://dl.dropboxusercontent.com/s/9icn86cio1pv96u/settings.png?raw=1
-">     Click here for new recommended settings ( ͡° ͜ʖ ͡°)</a></li>
+                        <li>Implemented STRmods customisation to 7.7.2 base script ( ͡° ͜ʖ ͡°)               <a href="https://dl.dropboxusercontent.com/s/9icn86cio1pv96u/settings.png?raw=1
+">Click here for new recommended settings ( ͡° ͜ʖ ͡°)</a></li>
                     </ul>
                 `
             },
