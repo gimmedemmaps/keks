@@ -3,7 +3,7 @@
 // @namespace STRmods ESGST
 // @description EZPZ MODE WITH ENTER BUTTON AS IT SHOULD BE, FUKING REKT M9
 // @icon https://dl.dropboxusercontent.com/s/2kg8nmitg0iko8o/strmods.ico?raw=1
-// @version 69 action Beta v69.911-2
+// @version 69 action Beta v69.911-2 test
 // @author STRmods and ma boi revilheart
 // @downloadURL https://raw.githubusercontent.com/gimmedemmaps/keks/master/STRmods-ESGST.user.js
 // @updateURL https://raw.githubusercontent.com/gimmedemmaps/keks/master/STRmods-ESGST.meta.js
